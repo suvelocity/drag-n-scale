@@ -1,5 +1,5 @@
 test("package.json does not include any extra libraries ", () => {
-  const pack = require("../package.json");
+  const pack = require("./package.json");
   const expectedDependencies = [
     "jest",
     "puppeteer",
