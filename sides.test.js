@@ -2,7 +2,7 @@ const puppeteer = require("puppeteer");
 
 const ourElement = "#main";
 const ourHeader = "#header";
-const url = `file://${__dirname}/../index.html`;
+const url = `file://${__dirname}/../_cloned-app/index.html`;
 const minimumWidth = 100;
 const minimumHeight = 100;
 
