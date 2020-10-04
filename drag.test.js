@@ -1,4 +1,6 @@
 const puppeteer = require("puppeteer");
+const url = `file://${__dirname}/../_cloned-app/index.html`;
+
 describe("dragging box", () => {
   test("dragging", async () => {
     const browser = await puppeteer
@@ -8,7 +10,6 @@ describe("dragging box", () => {
       //   slowMo: 100,
       // }
       ();
-    const url = `file://${__dirname}/../_cloned-app/index.html`;
 
     const page = await browser.newPage();
     await page.goto(url);
@@ -48,7 +49,7 @@ describe("dragging box", () => {
       //   slowMo: 100,
       // }
       ();
-    const url = `file://${__dirname}/../index.html`;
+    
     const page = await browser.newPage();
     await page.goto(url);
 
