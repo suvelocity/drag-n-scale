@@ -8,7 +8,7 @@ describe("dragging box", () => {
       //   slowMo: 100,
       // }
       ();
-    const url = `file://${__dirname}/../index.html`;
+    const url = `file://${__dirname}/../_cloned-app/index.html`;
 
     const page = await browser.newPage();
     await page.goto(url);
