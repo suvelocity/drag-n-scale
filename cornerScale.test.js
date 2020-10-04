@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-const url = `file://${__dirname}/../index.html`;
-//'file://' + __dirname + '/../_cloned-app/index.html'
+const url = `file://${__dirname}/../_cloned-app/index.html`;
+
 let id = "#main";
 
 describe("The object should be scalable by dragging the corners", () => {
